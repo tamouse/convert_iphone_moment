@@ -28,5 +28,4 @@ class ConvertIphoneMomentTest < Minitest::Test
       ::ConvertIphoneMoment.parse_date(date)
     end
   end
-
 end

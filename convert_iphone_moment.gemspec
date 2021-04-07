@@ -9,10 +9,14 @@ Gem::Specification.new do |spec|
   spec.email         = ["tamouse@gmail.com"]
 
   spec.summary       = "Convert (i)Photos) Moment folder names into a useful sorting name"
-  spec.description   = "When exporting images from Photos.app including the moment name, it creates a folder with a name like \"Moment Name, Month 00, 2021\" which is pretty unuseful. This utility changes the folder name to \"YYYY-mm-dd.Moment-Name\" so it sorts well and can become a URL easily."
+  spec.description   = "When exporting images from Photos.app including the moment name, " \
+                       "it creates a folder with a name like \"Moment Name, Month 00, 2021\" " \
+                       "which is pretty unuseful. " \
+                       "This utility changes the folder name to \"YYYY-mm-dd.Moment-Name\" " \
+                       "so it sorts well and can become a URL easily."
   spec.homepage      = "https://github.com/tamouse"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.1")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
